@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM debian:12.10-slim
 
 # add our user and group first to make sure their IDs get assigned consistently, regardless of whatever dependencies get added
 #RUN groupadd -r www-data && useradd -r --create-home -g www-data www-data
